@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
         Integer edad = 32;
@@ -10,7 +11,6 @@ public class Main {
 
         List<String> listAlumnos = new ArrayList<>();
 
-        //Agregar elementos
         listAlumnos.add(nombre);
         listAlumnos.add(nombre1);
         listAlumnos.add(nombre2);
@@ -27,11 +27,11 @@ public class Main {
         System.out.println(listAlumnos.size());
         //Extraer un valor del array
 
-        System.out.println(listAlumnos.getFirst());
+        //System.out.println(listAlumnos.getFirst());
 
         System.out.println(listAlumnos.get(1));
 
-        System.out.println(listAlumnos.getLast());
+        //System.out.println(listAlumnos.getLast());
 
 
         //Remover
@@ -40,8 +40,8 @@ public class Main {
         System.out.println(listAlumnos);
 
         System.out.println("Nueva eliminacion");
-        listAlumnos.removeFirst();
-        listAlumnos.removeLast();
+       // listAlumnos.removeFirst();
+       // listAlumnos.removeLast();
 
         System.out.println(listAlumnos);
 
@@ -66,9 +66,9 @@ public class Main {
         System.out.println(listAlumnos);
 
 
-        listAlumnos.addFirst("pepe");
+       // listAlumnos.addFirst("pepe");
 
-        listAlumnos.addLast("juliana");
+       // listAlumnos.addLast("juliana");
 
         System.out.println(listAlumnos);
 
